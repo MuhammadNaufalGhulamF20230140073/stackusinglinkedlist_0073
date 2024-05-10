@@ -53,3 +53,9 @@ public:
             cout << endl;
         } // return the value of the top node
     }
+    
+     bool isEmpty() {
+        return top == NULL; // Return true if the top pointer is NULL, indicating an Empty stack
+
+    }      
+};
